@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    
+    <script src="jquery-3.5.1.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    
+    <title>Blog</title>
+    
+    <style type="text/css">
+    
+      html {
+        
+        height: 100%;
+        
+      }
+    
+      body {
+        
+        margin: 0px;
+        background-color: white;
+        height: 100%;
+        
+      }
+      
+      #imagediv {
+        
+        width: auto;
+        height: 100%;
+        float: right;
+        margin: 15px;
+        
+      }
+      
+      h1 {
+        
+        text-align: center;
+        color: black;
+        font-family: "Indie Flower";
+        margin: 10px;
+        text-shadow: 2px 3px 1px red;
+        
+      }
+      
+      h2 {
+        
+        text-align: center;
+        color: white;
+        font-family: 'Do Hyeon', sans-serif;
+        text-shadow: 3px 3px 1px red;
+        
+      }
+      
+      #subtitle {
+        
+        background-color: black;
+        width: auto;
+        height: auto;
+        padding: 5px;
+        
+      }
+      
+      #topbar {
+        margin: 0px;
+        width: 100%;
+        height: 70px;
+        background-color: orange;
+        
+      }
+      
+      #topbar a {
+        
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        
+      }
+      
+      #topbar a:hover {
+        
+        color: white;
+        text-shadow: 3px 4px 1px black;
+        
+      }
+      
+      #topbar a:active {
+        
+        color: white;
+        text-shadow: none;
+        
+      }
+      
+      #sidebar a {
+        
+        color: white;
+        font-family: "Montserrat", fantasy;
+        font-weight: bold;
+        text-shadow: none;
+        
+      }
+      
+      #sidebar a:hover {
+        
+        color: white;
+        text-shadow: 2px 2px 1px black;
+        
+      }
+      
+      .topspan {
+        
+        float: left;
+        border-right: 5px solid black;
+        width: auto;
+        height: auto;
+        padding: 25px;
+        
+      }
+      
+      #text {
+        
+        font-family: "Montserrat", cursive;
+        width: 100%;
+        
+      }
+      
+      .heading {
+        
+        font-weight: bold;
+        text-align: center;
+        margin: 30px;
+      }
+        
+      
+      #sidebar {
+        
+        background-color: red;
+        float: left;
+        margin: 10px 20px 10px 10px;
+        border-radius: 10px;
+        padding: 0px 10px;
+        width: auto;
+        height: 100%;
+        
+        
+      }
+      
+      #headingH2 {
+        
+        color: white;
+        text-shadow: 3px 4px 1px black;
+        
+      }
+      
+      #sidebar a {
+        
+        color: black;
+        font-size: 110%;    /*makes font size 110% of the default*/
+        text-shadow: 3px 4px 10px black;
+        font-family: cursive;
+        
+      }
+      
+      #sidebar a:hover {
+        
+        color: blue;
+        text-shadow: 3px 4px 5px white;
+        
+        
+      }
+    
+      
+      img {
+        
+        float: right;
+        
+      }
+      
+      .para {
+        
+        margin: 50px;
+        font-size: 15px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        
+      }
+      
+    </style>
+    
+  </head>
+  
+  <body>
+    
+    <div id="topbar"> <!-- This is the start of the top bar with links on it!!-->
+      
+      <a href="https://classroom.google.com" target="_blank"><span class="topspan">Google Classroom</span></a>
+      
+      <a href="https://docs.google.com/document/d/1uFavTTqb8SkN3p5ytVWSv_Mfps0TkTUDv1dXgdJk-N0/edit?usp=drive_open%26ouid=117664515504587516549" target="_blank"><span class="topspan">Blog on Google Docs</span></a>
+      
+      <a href="https://google.com" target="_blank"><span class="topspan">Insert source here</span></a>
+      <a href="https://google.com" target="_blank"><span class="topspan">Insert source here</span></a>
+      <a href="https://google.com" target="_blank"><span class="topspan">Insert source here</span></a>
+      <a href="https://google.com" target="_blank"><span class="topspan">Insert source here</span></a>
+
+      
+    </div> <!-- End of top bar!!-->
+    
+    <div id="sidebar"> <!--Bar on the side with bookmarked headings! -->
+      
+      <h2 id="headingH2">Headings:</h2> <!--All headings (there may be extra)-->
+     
+      <a href="#heading1"><p>Heading 1</p></a>
+      
+      <a href="#heading2"><p>Heading 2</p></a>
+      
+      <a href="#heading3"><p>Heading 3</p></a>
+      
+      <a href="#heading4"><p>Heading 4</p></a>
+      
+      <a href="#heading5"><p>Heading 5</p></a>
+      
+    </div> <!--End of bookmarked headings bar -->
+    
+    <div id="imagediv">
+      
+    <img src="https://americanhistory.si.edu/fuelcells/images/fc_ani.gif" alt="animated image showing the function of a PEM fuel cell"/>
+    
+    </div>
+    
+    <h1>Carbon Sequestration Technologies</h1> <!-- Title -->
+    
+    <h2><span id="subtitle">Hydrogen Fuel Cells</span></h2> <!--Subtitle-->
+    
+    
+    <div id="text">
+      
+      <h3 class="heading" id="heading1">Heading 1</h3>
+      
+      <p id="para1" class="para">This blog text goes here</p>
+      
+      <h3 class="heading" id="heading2">Heading 2</h3>
+      
+      <h3 class="heading" id="heading3">Heading 3</h3>
+      
+      <h3 class="heading" id="heading4">Heading 4</h3>
+      
+      <h3 class="heading" id="heading5">Heading 5</h3>
+
+    
+    </div>
+    
+    <script type="text/javascript"> // Start of JS and jQuery
+    
+      $(".topspan").hover(function() {
+        
+        $(this).css("background-color", "red");
+        
+      },
+      
+      function(){
+      
+        $(this).css("background-color", "orange");
+      
+      });
+
+        
+    </script>
+    
+  </body>
+  
+</html>
